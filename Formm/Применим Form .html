@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Применим Form</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form action="#" method="post" enctype="multipart/form-data">
+<p>Имя</p>
+<div><input tabindex="1" type="text" name="username"></div>
+<p>Пароль</p>
+<div><input tabindex="2" type="password" name="userpass"></div>
+<p>Телефон</p>
+<div><input tabindex="3" type="tel" name="userphon"></div>
+<p>Пол</p>
+<div>
+	<input tabindex="4" type="radio" name="gender" value="male" checked=""> Мужской
+</div>
+<div>
+	<input tabindex="4" type="radio" name="gender" value="female">Женский
+</div>
+<p>Имущество</p>
+<div>
+		<input tabindex="5" type="checkbox" name="bike" value="yes" checked="">Велик
+</div>
+<div>
+		<input tabindex="6" type="checkbox" name="car" value="yes">Машина
+</div>
+<div>
+		<input tabindex="7" type="checkbox" name="flat" value="yes">Квартира
+</div>
+<p>Дополнительная информация</p>
+<div>
+	<textarea tabindex="8" name="text"></textarea>
+</div>
+<p>Прикрепить фото</p>
+<div>
+	<input tabindex="9" type="file" name="userfoto">
+</div>
+<p>Любимый цвет</p>
+<div>
+	<select tabindex="10" name="color">
+		<option value="red"selected>Красный</option>
+		<option value="green">Зеленый</option>
+		<option value="yellow">Желтый</option>
+	</select>
+</div>
+<p>Действия</p>
+<div>
+	<button tabindex="11" type="submit">Отправить</button>
+	<button tabindex="12" type="reset">Очистить</button>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+
+
+
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="name" id="name-label">Name<input id="name" name="name" type="text" required placeholder="Enter your name"/></label>
+        <label for="email" id="email-label">Email<input id="email" name="email" type="email" required placeholder="Enter your Email" /></label>
+        <label for="age" id="number-label">Age
+(optional)<input id="number" name="age" type="number" required placeholder="Age" min="13" max="120"/></label>
+<label for="dropdown">Which option best describes your current role?
+          <select id="dropdown" name="dropdown">
+            <option value="">select current role</option>
+            <option value="1">student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+
+
+      <fieldset>
+        <label for="Definitely">Would you recommend freeCodeCamp to a friend?<input id="Definitely" type="radio" name="recommend" class="inline" value="value"/> Definitely</label>
+        <label for="Maybe"><input id="Maybe" type="radio" name="recommend" class="inline" value="value"/> Maybe</label>
+        <label for="Not sure"><input id="Not sure" type="radio" name="recommend" class="inline" value="value"/> Not sure</label>
+      </fieldset>
+
+
+
+      <fieldset>
+        <label for="dropdown">What is your favorite feature of freeCodeCamp?
+          <select id="dropdown" name="dropdown">
+            <option value="">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Sourse</option>
+          </select>
+        </label>
+
+
+        <label for="terms-and-conditions"> What would you like to see improved? (Check all that apply)
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Front-end Projects
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Back-end Projects
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Data Visualization
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Challenges
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Open Source Community
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Gitter help rooms
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Videos
+        </label>
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> City Meetups
+        </label>
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Wiki
+        </label>
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Forum
+        </label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="value" /> Additional Courses
+        </label>
+
+      
+        
+        <label for="bio">Any comments or suggestions?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
+
+

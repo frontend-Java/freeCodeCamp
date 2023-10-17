@@ -1,0 +1,149 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	boz-box-sizing: border-box;
+	workit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%
+	line-height:1;
+	font-size: 14px;
+	ms-text-size-adjust: 100%;
+	mos-text-size-adjust:100%;
+	wedkit-text-size-adjust:100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::ms-clear{display: none;}
+button{cursor: pointer;}
+button::moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+	width: 1200px;
+	height: 3186px;
+	font-family: "Arial MT", "Helvetica Neue", Helvetica, sans-serif;
+	font-weight:400;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #445161;
+}
+
+p{
+	color: #333333;
+}
+
+h1{
+	width: 286px;
+	height: 28px;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+h2{
+	width: 377px;
+	height: 23px;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.bold{
+	width: 854px;
+	height: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 14px;
+}
+
+.red{
+	width: 832px;
+	height: 14px;
+	color: #ff0000;
+	font-size: 14px;
+	line-height: 14px;
+}
+h3{
+	width: 181px;
+	height: 18px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.uppercase{
+	width: 641px;
+	height: 15px;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+}
+
+.italic{
+	width: 541px;
+	height: 14px;
+	font-family: Arial-italic MT;
+	font-size: 14px;
+	line-height: 14px;
+	font-style: italic;
+}
+.underline{
+	width: 509;
+	height: 15px;
+	font-size: 14px;
+	line-height: 14px;
+	text-decoration: underline;
+}
+
+.right{
+	width: 507px;
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: right;
+}
+
+h4{
+	width: 870px;
+	height: 22px;
+	font-size: 24px;
+	line-height: 24px;
+}
+.line-through{
+	width: 509px;
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	text-decoration: line-through;
+}
+
+.small{
+	width: 461px;
+	height: 13px;
+	font-family: Times New Roman PSMT;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.text-shadow{
+	width: 508px;
+	height: 14px;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 14px;
+	line-height: 14px;
+}
